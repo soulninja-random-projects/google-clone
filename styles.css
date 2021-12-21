@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#navbar {
+  display: flex;
+  justify-content: end;
+  font-size: small;
+  margin: 2px;
+}
+
+.navitem {
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#pfp {
+  margin-top: -5px;
+  color: red;
+  width: 50px;
+  height: 50px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: -50px;
+}
+
+#search {
+  display: flex;
+  margin-top: -50px;
+  margin-bottom: 30px;
+  border: 1px solid transparent;
+}
+
+i {
+  margin-top: 13px;
+  margin-left: 20px;
+  position: absolute;
+}
+
+#searchbox {
+  width: 600px;
+  height: 45px;
+  border-radius: 30px;
+  outline: none;
+  border: 1px solid rgb(214, 214, 214);
+  padding-left: 50px;
+}
+
+#search:hover {
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: 30px;
+}
+
+.button {
+  margin-bottom: 30px;
+  margin-right: 2px;
+  margin-left: 2px;
+  padding: 10px 20px;
+  background-color: rgb(247, 247, 247);
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.button:hover {
+  border: 1px solid rgb(221, 219, 219);
+}
+
+#links {
+  font-size: small;
+}
+
+#links a {
+  color: rgb(64, 64, 153);
+}
